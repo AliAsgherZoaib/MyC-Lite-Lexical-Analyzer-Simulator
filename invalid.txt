@@ -1,0 +1,13 @@
+begin
+  int total = 50;                  // Error: No Prefix (Rule 1)
+  int v_x = 10;                     // Warning: Too short (Rule 5)
+  float v_calcValue = 12.3.4;       // Error: Bad Float format
+  
+  c_ = 99;                          // Error: Fragment Prefix (Rule 9)
+  
+  v_thisIdentifierNameIsWayTooLong = 5; // Error: Over 20 chars (Rule 3)
+  
+  @                                 // Error: Invalid Character
+  
+  display("Unclosed text string sequence test...
+end

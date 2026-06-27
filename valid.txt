@@ -1,0 +1,11 @@
+begin
+  int v_total = 100;
+  float v_itemPrice = 24.50;
+  c_PI = 3.14159;
+  
+  display("Processing calculations...");
+  
+  repeat
+    v_total = v_total + 1;
+  until v_total == 200
+end
